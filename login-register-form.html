@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/a838936037.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+<!-- 
+    <button type="submit">jksjfksj</button>
+    <input type="submit" value="submit"> -->
+    <div class="container" id="mainBox">
+        <div class="form-box">
+            <div class="button-box">
+                <!-- <div id="btn"></div> -->
+                <button type="button" class="toggle-btn btn active hover" id="loginToggleBtn">Log In</button>
+                <button type="button" class="toggle-btn btn  hover" id="registerToggleBtn">Register</button>
+            </div>
+
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-google"></i>
+            </div>
+
+            <form class="entry-sec" id="loginForm" name="loginForm">
+                <input type="email" name="email" class="input-field" placeholder="User Id" required>
+                <!-- <input type="email" name="email"
+                class="form-control mb-3 px-3 border-0 border-bottom border-secondary" placeholder="User name"
+                aria-label="User Id"> -->
+                <input type="password" name="password" class="input-field" placeholder="Enter Password" required>
+                <input type="checkbox" class="check-box"> <label for="">Remember Password</label>
+
+                <button type="submit" class="submit-btn">Log in</button>
+                <!-- <button type="submit" class="btn  px-3 loginbtn form-control">Login</button> -->
+            </form>
+            <form class="entry-sec" id="registerForm" name="registerForm">
+                <input type="text" name="name" class="input-field" placeholder="User Id" required>
+                <input type="email" name="email" class="input-field" placeholder="Enter Email Id" required>
+                <input type="password" name="password" class="input-field" placeholder="Enter Password" required>
+                <input type="checkbox" class="check-box"> <label for="">i agree to the terms & conditions</label>
+
+                <button type="submit" class="submit-btn">Register</button>
+            </form>
+
+        </div>
+
+    </div>
+    <div class="container " id="usersData">
+    
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+   
+                <td></td>
+
+          
+        </table>
+    </div>
+<script src="./script.js"></script>
+</body>
+
+</html>
